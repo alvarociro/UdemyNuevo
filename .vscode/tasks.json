@@ -1,0 +1,88 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+        
+        {
+			"label": "[RUN] MS USUARIOS",
+			"type": "shell",
+			"command": "cd microservicios-usuarios/ && ./mvnw spring-boot:run",
+			"problemMatcher": [],
+			"group": "none",
+			"detail": ""
+		},
+		{
+			"label": "[RUN] MS EUREKA",
+			"type": "shell",
+			"command": "cd microservicios-eureka/ && ./mvnw spring-boot:run",
+			"problemMatcher": [],
+			"group": "none",
+			"detail": ""
+		},
+		{
+			"label": "[RUN] MS ZUUL",
+			"type": "shell",
+			"command": "cd microservicios-zuul/ && ./mvnw spring-boot:run",
+			"problemMatcher": [],
+			"group": "none",
+			"detail": ""
+		}
+		// {
+		// 	"label": "[RUN] Spring Boot Application",
+		// 	"type": "shell",
+		// 	"command": "./mvnw spring-boot:run",
+		// 	"problemMatcher": [],
+		// 	"group": "none",
+		// 	"detail": ""
+		// },
+		// {
+		// 	"label": "[COMPILE] Spring Boot Application",
+		// 	"type": "shell",
+		// 	"command": "./mvnw clean compile",
+		// 	"problemMatcher": [],
+		// 	"group": "none",
+		// 	"detail": ""
+		// },
+		// {
+		// 	"label": "[TEST COMPILE] Spring Boot Application",
+		// 	"type": "shell",
+		// 	"command": "./mvnw clean test-compile",
+		// 	"problemMatcher": [],
+		// 	"group": "none",
+		// 	"detail": ""
+		// },
+		// {
+		// 	"label": "[TEST RUN] SpringBoot App",
+		// 	"type": "shell",
+		// 	"command": "./mvnw clean test jacoco:report",
+		// 	"problemMatcher": [],
+		// 	"group": "none",
+		// 	"detail": ""
+		// },
+		// {
+		// 	"label": "[TEST RUN CURRENT FILE] SpringBoot App",
+		// 	"type": "shell",
+		// 	"command": "./mvnw clean test -Dtest=${fileBasenameNoExtension} jacoco:report",
+		// 	"problemMatcher": [],
+		// 	"group": "none",
+		// 	"detail": ""
+		// },
+		// {
+		// 	"label": "[LOG TEST RUN] SpringBoot App",
+		// 	"type": "shell",
+		// 	"command": "./mvnw clean test jacoco:report  > test.log",
+		// 	"problemMatcher": [],
+		// 	"group": "none",
+		// 	"detail": ""
+		// },
+		// {
+		// 	"label": "[LOG TEST RUN CURRENT FILE] SpringBoot App",
+		// 	"type": "shell",
+		// 	"command": "./mvnw clean test -Dtest=${fileBasenameNoExtension} jacoco:report > test-${fileBasename}.log",
+		// 	"problemMatcher": [],
+		// 	"group": "none",
+		// 	"detail": ""
+		// }
+	]
+}

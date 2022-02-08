@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosEurekaApplication<microservicios-eureka>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.formacionbdi.microservicios.app.eureka.microservicioseureka.MicroserviciosEurekaApplication",
+            "projectName": "microservicios-eureka",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosUsuariosApplication<microservicios-usuarios>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.formacionbdi.microservicios.app.usuarios.microserviciosusuarios.MicroserviciosUsuariosApplication",
+            "projectName": "microservicios-usuarios",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosZuulApplication<microservicios-zuul>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.formacionbdi.mircoservicios.app.zuul.microservicioszuul.MicroserviciosZuulApplication",
+            "projectName": "microservicios-zuul",
+            "args": ""
+        }
+    ]
+}
