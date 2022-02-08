@@ -29,6 +29,16 @@
             "mainClass": "com.formacionbdi.mircoservicios.app.zuul.microservicioszuul.MicroserviciosZuulApplication",
             "projectName": "microservicios-zuul",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosUsuariosApplication<microservicios-usuarios>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.formacionbdi.microservicios.app.usuarios.MicroserviciosUsuariosApplication",
+            "projectName": "microservicios-usuarios",
+            "args": ""
         }
     ]
 }
