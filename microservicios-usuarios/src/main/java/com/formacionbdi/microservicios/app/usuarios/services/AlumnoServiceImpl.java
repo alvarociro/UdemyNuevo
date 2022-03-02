@@ -2,12 +2,10 @@ package com.formacionbdi.microservicios.app.usuarios.services;
 
 import java.util.Optional;
 
-import javax.transaction.TransactionScoped;
 
 import com.formacionbdi.microservicios.app.usuarios.models.entity.Alumno;
 import com.formacionbdi.microservicios.app.usuarios.models.entity.repository.AlumnoRepository;
 
-import org.hibernate.type.TrueFalseType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
